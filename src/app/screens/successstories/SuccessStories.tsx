@@ -1,5 +1,4 @@
 import { Button } from "@mui/material";
-import React from "react";
 import CarouselThree from "../../components/carouselthree/CarouselThree";
 
 function SucessStories() {
@@ -7,7 +6,7 @@ function SucessStories() {
     <div>
       <div className="flex jusitfy-center items-center flex-col px-8 xl:px-40 pb-10">
         <h1
-          className="text-gradient pt-32 font-medium text-center text-4xl md:text-6xl pb-10"
+          className="text-gradient pt-36 font-medium text-center text-4xl md:text-6xl pb-10"
           data-aos="fade-up"
         >
           Succes Stories
