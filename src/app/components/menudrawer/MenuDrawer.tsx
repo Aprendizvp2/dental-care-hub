@@ -67,6 +67,12 @@ export default function MenuDrawer({
           >
             Contact Us
           </a>
+          <a
+            className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"
+            href="/quiz"
+          >
+            Quiz
+          </a>
         </div>
       </Paper>
     </Drawer>

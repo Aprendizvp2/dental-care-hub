@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Doctor from "./screens/doctor/Doctor";
 import Services from "./screens/services/Services";
 import SucessStories from "./screens/successstories/SuccessStories";
+import Quiz from "./screens/quiz/Quiz";
 import AOS from "aos";
 import { Hidden } from "@mui/material";
 import SmallHeader from "./components/smallheader/SmallHeader";
@@ -46,6 +47,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/success-stories" element={<SucessStories />} />
+        <Route path="/quiz" element={<Quiz />} />
       </Routes>
     </div>
   );

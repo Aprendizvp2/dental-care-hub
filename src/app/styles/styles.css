@@ -201,3 +201,19 @@
   left: 0;
   background-color: rgb(251, 192, 104, 0.55);
 }
+
+.custom-file-input {
+  background-color: white !important;
+  border: 3px solid transparent;
+  padding: 10px;
+  border-radius: 12px;
+  height: 100px;
+}
+
+.custom-file-input:focus {
+  box-sizing: border-box;
+  border: 3px solid #fbc068;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}

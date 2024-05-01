@@ -50,8 +50,8 @@ const storiesData = [
 
 function Services() {
   return (
-    <div className="w-full">
-      <div className="bg-black flex justify-center items-center px-8 xl:px-12 h-screen">
+    <div className="w-full bg-black h-screen pt-40">
+      <div className="bg-black flex justify-center items-center px-8 xl:px-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-16 items-center">
           {storiesData.map((category) => (
             <div

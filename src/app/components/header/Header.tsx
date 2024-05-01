@@ -36,6 +36,9 @@ function Header() {
             <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/contact">
               Contact Us
             </a>
+            <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/quiz">
+              Quiz
+            </a>
           </div>
           <div className="flex flex-row items-center">
             <InstagramIcon className="mx-2" />
